@@ -14,11 +14,11 @@
 # print(dice_imgs[dice_num])
 
 # # Play Computer
-# year = int(input("What's your year of birth?"))
-# if year > 1980 and year < 1994:
-#   print("You are a millenial.")
-# elif year >= 1994:
-#   print("You are a Gen Z.")
+year = int(input("What's your year of birth?: "))
+if year > 1980 and year < 1994:
+  print("You are a millenial.")
+elif year >= 1994:
+  print("You are a Gen Z.")
 
 # # Fix the Errors
 # age = int(input("How old are you?"))
@@ -36,11 +36,11 @@
 # print(total_words)
 
 # #Use a Debugger
-def mutate(a_list):
-  b_list = []
-  for item in a_list:
-    new_item = item * 2
-    b_list.append(new_item)
-  print(b_list)
+# def mutate(a_list):
+#   b_list = []
+#   for item in a_list:
+#     new_item = item * 2
+#     b_list.append(new_item)
+#   print(b_list)
 
-mutate([1,2,3,5,8,13])
+# mutate([1,2,3,5,8,13])
